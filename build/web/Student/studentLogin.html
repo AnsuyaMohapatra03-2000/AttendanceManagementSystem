@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+	<title>Form </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+                <link href="css/style_studentReg.css" rel="stylesheet" type="text/css"/>
+                <link href="css/formhack.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+     <div class="container">
+		<form class="registration" id="registration" action="LoginStudentServlet">
+			<h1>Student Login</h1>
+			<div>
+				<label for="mail">
+					<span>ID</span>
+					<input type="text" name="studentId" id="sid" required>
+				</label>
+			</div>
+
+			<div>
+				<label for="password">
+					<span>Password</span>
+					<input type="password" name="studentPassword" id="password" required>
+				</label>
+			</div>
+
+			<div class="submit-btn">
+				<input type="submit">
+			</div>	
+		</form>
+	</div>
+    <script src="js/script.js"></script>
+</body>
+    </body>
+</html>

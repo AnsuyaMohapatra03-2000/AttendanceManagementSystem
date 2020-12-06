@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Form </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/formhack.css">
+        <style>
+                button:hover,
+			input[type="button"]:hover,
+			input[type="submit"]:hover,
+			input[type="reset"]:hover,
+			button:focus,
+			input[type="button"]:focus,
+			input[type="submit"]:focus,
+			input[type="reset"]:focus {
+			  background-color:  rgba(0,0,0,1);
+			  color: #fff; 
+                }
+        </style>
+</head>
+<body>
+     <div class="container">
+	<form class="registration" id="registration" action="RegisterFacultyServlet">
+			<h1>Faculty Registration Form</h1>
+		<div>
+			<label for="firstname">
+				<span>First Name</span>
+                                <input type="text" name="fname" id="firstname" required>
+
+				<ul class="input-requirements">
+					<li>Must only contain letters(no numbers/special characters)</li>
+				</ul>
+			</label>
+		</div>
+
+		<div>
+			<label for="lastname">
+				<span>Last Name</span>
+
+				<input type="text" name="lname" id="lastname" required>
+
+				<ul class="input-requirements">
+					<li>Must only contain letters (no numbers/special characters)</li>
+				</ul>
+			</label>
+		</div>
+
+		<div>
+			<label for="subject">
+				<span>Subject </span>
+			<select name="subject-list" class="subject-list" required>
+	                                            <option value=""> </option>
+	                                            <option value="iwt">IWT</option>
+	                                            <option value="dccn">DCCN</option>
+	                                            <option value="os">OS</option>          
+	                                </select></label>
+		</div>
+
+		<div>
+			<label for="mail">
+				<span>Email</span>
+
+				<input type="text" name="email" id="mail" required>
+				<ul class="input-requirements">
+					<li>Must be of the structure accountName@domainName</li>
+				</ul>
+
+			</label>
+		</div>
+
+		<div>
+			<label for="password">
+				<span>Password</span>
+
+				<input type="password" name="password" id="password" maxlength="100" minlength="8" required>
+
+				<ul class="input-requirements">
+					<li>At least 8 characters long (and less than 100 characters)</li>
+					<li>Contains at least 1 number</li>
+					<li>Contains at least 1 letter</li>
+					<li>Contains a special character (e.g. @ !)</li>
+				</ul>
+			</label>
+		</div>
+
+		<div>
+			<label for="password_repeat">
+				<span>Repeat Password</span>
+				<input type="password" id="password_repeat" maxlength="100" minlength="8" required>
+			</label>
+		</div>
+
+		<div class="submit-btn">
+			<input type="submit">
+		</div>	
+
+		   </form>
+	</div>
+    <script src="js/script.js"></script>
+</body>
+</html>

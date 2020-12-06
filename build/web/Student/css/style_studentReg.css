@@ -1,0 +1,141 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a,img, ol, ul, li,
+form, label,footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, footer, header, menu, nav, section {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: 'Source Sans Pro';
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 15px 20px;
+    background-color: #4d004d;   
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit; 
+}
+    
+.container {
+	margin: 80px auto;
+	width: 90%;
+	max-width: 800px;
+}
+
+.registration {
+	background-color: #fff;
+  padding: 5px;
+	max-width: 80%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+	border-bottom: 5px solid #4d004d;
+}
+
+.input-requirements {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: left;
+  list-style: disc;
+  list-style-position: inside;
+  max-width: 400px;
+  margin: 10px auto;
+  color: rgb(150,150,150);
+}
+
+.input-requirements li.invalid {
+	color: #e74c3c;
+}
+.input-requirements li.valid {
+	color: #2ecc71;
+}
+
+.input-requirements li.valid:after {
+	display: inline-block;
+	padding-left: 10px;
+	content: "\2713";
+}
+
+select{
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+
+.image-preview{
+  min-height: 200px;
+  border: 2px solid #dddddd;
+  width: 400px;
+  margin: 10px auto;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #cccccc;
+}
+
+.image-preview-img{
+  display: none;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}

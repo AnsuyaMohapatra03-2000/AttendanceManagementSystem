@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/RegisterStudentServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/SendEmail.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/LogoutInfo.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/SecondQuizServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/FacultySlotServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/facultyLogin.html</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/Videos_Page_1.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/ProfilePicDisplayServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/formStudent.html</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/SubjectResponse.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/GetProperTime.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/FirstQuizServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/FacultyProfile.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/DbConnection.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/quizPage_2.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/DbConnection.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/FacultyLoginTime.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/GetProperTime.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/dashboardStudent.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/formFaculty.html</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/index.html</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/StudentHomePage.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/LoginFacultyServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/RegisterFacultyServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/facultySlotBook.html</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/SendEmail.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/studentLogin.html</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/LogoutFaculty.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/failedLogin.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/ResultFaculty.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Faculty/AnchorSlotServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/quizPage_1.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/src/java/com/Student/LoginStudentServlet.java</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/Todays_Attendance.jsp</file>
+            <file>file:/C:/Users/ansuy/Desktop/IWT_PROJECT/web/facultyFailedLogin.jsp</file>
+        </group>
+    </open-files>
+</project-private>

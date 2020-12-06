@@ -1,0 +1,158 @@
+input, select, option, button{
+  box-sizing: border-box;
+  outline: none;
+  
+  font-size: 15px;
+  color: rgb(40,40,40);
+  vertical-align: top;
+
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+
+label {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 0 20px;
+}
+
+/* Input & Textarea ------------------ */
+
+/* Fields with standard width */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+select{
+  width: 100%;
+  max-width: 400px;
+  padding: calc( 40px / 5 );
+  background-color: rgb(250,250,250);
+
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200,200,200);
+}
+
+/* Fields with standard height */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+input[list] {
+  height: 40px;
+  -webkit-appearance: none;
+}
+
+/* Other */
+input[type="file"] {
+  min-height: 40px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+select {
+  height: 40px;
+  -webkit-appearance-select-vendor-styling: menulist;
+  -moz-appearance-select-vendor-styling: menulist;
+  -ms-appearance-select-vendor-styling: menulist;
+  -o-appearance-select-vendor-styling: menulist;
+}
+
+/* Buttons, Input Type Submit/Reset ------------------ */
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="image"] {
+  height:40px;
+  width: 100%;
+  max-width: 200px;
+  background-color: #4d004d;
+  padding: calc( 40px / 5 );
+  cursor: pointer;
+
+  color: #fff;
+  font-weight: 700;
+
+  -webkit-appearance-select-vendor-styling: none;
+  -moz-appearance-select-vendor-styling: menulist;
+
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200,200,200);
+
+
+
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+}
+
+/* States ------------------ */
+
+input[disabled],
+select[disabled],
+option[disabled],
+button[disabled] {
+  cursor: not-allowed;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+option:focus,
+button:focus  {
+  background-color: rgb(250,250,250);
+  border-color: #000;
+}
+
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+  outline: #000 solid 2px;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+  background-color:  #4d004d; 
+      color: #fff; 
+   font-weight: 700;
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+}
+
+/* Custom ------------------ */
+
+input:not([type="submit"]):valid {
+  border-color: #600080;
+}
+
+/* Hide and show related .input-requirements when interacting with input */
+
+input:not([type="submit"]) + .input-requirements {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s ease-out;  
+}
+
+input:not([type="submit"]):hover + .input-requirements,
+input:not([type="submit"]):focus + .input-requirements,
+input:not([type="submit"]):active + .input-requirements {
+  max-height: 1000px; /* any large number (bigger then the .input-requirements list) */
+  transition: max-height 1s ease-in;
+}

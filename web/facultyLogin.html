@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Form </title>
+       
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/home/style.css">
+	<link rel="stylesheet" href="assets/css/home/formhack.css">
+        <style>
+			button:hover,
+			input[type="button"]:hover,
+			input[type="submit"]:hover,
+			input[type="reset"]:hover,
+			button:focus, 
+                                                input[type="button"]:focus, 
+                                                input[type="submit"]:focus, 
+                                                input[type="reset"]:focus {
+                                                                                         background-color:  rgba(0,0,0,1);
+                                                                                         color: #fff; 
+                                                 }	
+        </style>
+</head>
+<body>
+     <div class="container">
+		<form class="registration" id="registration" action="LoginFacultyServlet" method="post">
+			<h1>Faculty Login</h1>
+			<div>
+				<label for="mail">
+					<span>ID</span>
+					<input type="text" id="sid" name="facultyId" required>
+				</label>
+			</div>
+
+			<div>
+				<label for="password">
+					<span>Password</span>
+                                        <input type="password" name="facultyPassword" id="password" required>
+				</label>
+			</div>
+
+			<div>
+                            <label for="subject">
+                                <span>Subject </span>
+                                    <select name="facultySubject" class="subject-list" required>
+                                        <option value="">  </option>
+                                        <option value="iwt">IWT</option>
+                                        <option value="dccn">DCCN</option>
+                                        <option value="os">OS</option>          
+                                    </select>
+                            </label>
+                        </div>
+
+			<div class="submit-btn">
+				<input type="submit">
+			</div>	
+		</form>
+	</div>
+    <script src="js/script.js"></script>
+    </body>
+</html>
